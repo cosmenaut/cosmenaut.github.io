@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width,initial-scale=1.0">
+    <title>Cosme Martinez Jr | Designer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200;0,300;0,800;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+<body>
+    <section class="sub-header" >
+        <nav>
+            <a href="index.html"><img src="images/logo.png" alt="logo"></a>
+            <div class="nav-links" id="navLinks" >
+                <i class="fa-solid fa-xmark" onclick="hideMenu()" ></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="work.html">WORK</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-motorcycle" onclick="showMenu()" ></i>
+        </nav>
+        <h1>Wolfblitzer</h1>
+    </section>
+
+    
+   <!---START - main part of body--->
+<section class="text-image">
+       <a class="back-link" href="work.html" ><p>Back</p></a>
+<div class=""> 
+    <div class="text-image-col">
+       <h3>When I am not building websites</h3>
+        <p>I play in and design for a local band.</p>
+        <p>I have designed tons of t-shirts, long sleeves, stickers, album covers, social media posts and more! </p>
+        <p>You can check out some of the work I have done below.</p>
+        &nbsp;
+        <img src="images/wolf%20banner.png" alt="">
+          <figcaption>Social Media Post for upcoming record release.</figcaption>
+
+    </div>
+</div>
+</section>
+   
+<section class="about-me savy">
+    <div class="row" >
+       <div class="about-col">
+            <div>
+                <img class="bio-image" src="images/Wolf_New_Logo.png" alt="">
+                  <figcaption>Wolfblitzer Logo and Logotype.</figcaption>
+
+            </div>
+        </div>   
+        <div class="about-col">
+           <img class="bio-image" src="images/longPink.png">
+             <figcaption>Long Sleeve Wolfblitzer Design.</figcaption>
+
+            
+        </div>     
+    </div>
+    <div class="row" >
+       <div class="about-col">
+                <img class="phone-image" src="images/INSTASHIRT.png" alt="">
+                <figcaption>BLM Benefit Design.</figcaption>
+                
+        </div>
+        &nbsp;   
+        <div class="about-col">
+           <img class="bio-image" src="images/NewColor.png">
+           <figcaption>Alternative Wolfblitzer Logo and Logotype.</figcaption>
+            
+        </div>     
+    </div>
+    <div class="row" >
+       <div class="about-col">
+                <img class="phone-image" src="images/CanvasOIR.png" alt="">
+                <figcaption>Spotify canvas design for a song.</figcaption>
+        </div>  
+         &nbsp;
+        <div class="about-col">
+           <img class="bio-image" src="images/HITF3Galaxy.png">
+            <figcaption>Flyer for a show</figcaption>
+        </div>     
+    </div>
+</section>
+<!---END - main part of body--->
+
+     
+<!---Foooter--->
+<section class="footer">
+    <p>Find me on LinkedIn or send me an email!</p>
+    <div class="icons" >
+        <i class=" fa fa-brands fa-linkedin-in"></i>
+        <i class=" fa fa-solid fa-envelope"></i>
+    </div>
+    <p>Cosme Martinez Jr. <i class="fa-solid fa-hand-peace"></i></p>
+</section>
+
+    
+
+
+
+<!--javscript for menu -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right = "0px";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>    
+
+</body>
+
+</html>

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width,initial-scale=1.0">
+    <title>Cosme Martinez Jr | Designer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200;0,300;0,800;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+<body>
+    <section class="sub-header" >
+        <nav>
+            <a href="index.html"><img src="images/logo.png" alt="logo"></a>
+            <div class="nav-links" id="navLinks" >
+                <i class="fa-solid fa-xmark" onclick="hideMenu()" ></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="work.html">WORK</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-motorcycle" onclick="showMenu()" ></i>
+        </nav>
+        <h1>About Cosme</h1>
+    </section>
+
+    
+   <!---START - main part of body--->
+<section class="about-me">
+    <div class="row" >
+       <div class="about-col">
+            <div>
+                <img class="bio-image" src="images/cosme-about.JPEG" alt="">
+            </div>
+        </div>   
+        <div class="about-col">
+           <p>I graduated from the University of Northern Colorado with a bachelor's in Software Engineering and a Minor in Art &amp; Design.
+            </p>
+            <p>Constantly striving to further develop my technical, logical, and artistic skills through curiosity, question-asking, attempting and failing.
+            </p>
+            <p>Currently, I am a lead designer on an awesome team building websites using WordPress.
+            </p>
+            
+            <a href="work.html" class="hero-btn">See My Work</a>
+        </div>     
+    </div>
+</section> 
+<section class="about-me">
+   <div class="skills" >
+    <h1>Some of My Skills</h1>
+    <div class="row" >
+       <div class="skills-col">
+            <h2>General</h2>
+            <ul>
+              <li>UX/UI</li>
+              <li>Prototyping</li>
+              <li>Wireframing</li>
+              <li>Branding</li>
+              <li>Front-End Dev</li>
+            </ul> 
+        </div>   
+        <div class="skills-col">
+            <h2>Design</h2>
+            <ul>
+              <li>Adobe Creative Suite</li>
+              <li>Figma</li>
+              <li>Procreate</li>
+              <li>Blender</li>
+            </ul> 
+        </div>
+        <div class="skills-col">
+            <h2>Engineering</h2>
+            <ul>
+              <li>HTML/CSS</li>
+              <li>Javascript</li>
+              <li>Python</li>
+            </ul> 
+        </div>  
+    </div>
+    </div>
+</section> 
+    
+  <!---END - main part of body--->
+
+
+     
+<!---Foooter--->
+<section class="footer">
+    <p>Find me on LinkedIn or send me an email!</p>
+    <div class="icons" >
+        <i class=" fa fa-brands fa-linkedin-in"></i>
+        <i class=" fa fa-solid fa-envelope"></i>
+    </div>
+    <p>Cosme Martinez Jr. <i class="fa-solid fa-hand-peace"></i></p>
+</section>
+
+    
+
+
+
+<!--javscript for menu -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right = "0px";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>    
+
+</body>
+
+</html>

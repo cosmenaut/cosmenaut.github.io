@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width,initial-scale=1.0">
+    <title>Cosme Martinez Jr | Designer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200;0,300;0,800;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+<body>
+    <section class="sub-header" >
+        <nav>
+            <a href="index.html"><img src="images/logo.png" alt="logo"></a>
+            <div class="nav-links" id="navLinks" >
+                <i class="fa-solid fa-xmark" onclick="hideMenu()" ></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="work.html">WORK</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-motorcycle" onclick="showMenu()" ></i>
+        </nav>
+        <h1>Work</h1>
+    </section>
+
+    
+   <!---START - main part of body--->
+<section class="about-me">
+    <div class="row" >
+       <div class="about-col">
+            <div>
+                <img class="bio-image" src="images/savy_square_work.png" alt="">
+            </div>
+        </div>   
+        <div class="about-col">
+            <h1>Savy</h1>
+            <p>Savy is a simple budgeting app idea that uses the <a href="https://www.creditkarma.com/advice/i/50-30-20-rule#:~:text=The%2050%2F30%2F20%20rule%20budget%20is%20a%20simple%20way,savings%20or%20paying%20off%20debt." target="_blank" >50/30/20 rule!</a>
+            </p>
+            
+            <a href="savy.html" class="hero-btn">Check it out!</a>
+        </div>     
+    </div>
+</section> 
+    
+<section class="about-me">
+    <div class="row" >  
+       <div class="about-col">
+            <div>
+                <img class="bio-image" src="images/Wolf_New_Logo.png" alt="">
+            </div>
+        </div> 
+        <div class="about-col">
+            <h1>Wolfblitzer</h1>
+           <p>
+               Local band from Northern Colorado that I have helped brand and market.
+           </p>
+            
+            <a href="merch.html" class="hero-btn">Check it out!</a>
+        </div>     
+    </div>
+</section>
+
+<section class="about-me">
+    <div class="row" >
+       <div class="about-col">
+                <img class="bio-image" src="images/supernautSmall.png" alt="">
+        </div>   
+        <div class="about-col">
+        <h1>Other Designs</h1>
+           <p>
+               Take a look at some random designs I have created.
+           </p>
+            <a href="designs.html" class="hero-btn">Check it out!</a>
+        </div>     
+    </div>
+</section>
+
+    
+  <!---END - main part of body--->
+
+
+     
+<!---Foooter--->
+<section class="footer">
+    <p>Find me on LinkedIn or send me an email!</p>
+    <div class="icons" >
+        <i class=" fa fa-brands fa-linkedin-in"></i>
+        <i class=" fa fa-solid fa-envelope"></i>
+    </div>
+    <p>Cosme Martinez Jr. <i class="fa-solid fa-hand-peace"></i></p>
+</section>
+
+    
+
+
+
+<!--javscript for menu -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right = "0px";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>    
+
+</body>
+
+</html>
